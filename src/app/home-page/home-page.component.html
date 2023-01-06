@@ -1,0 +1,13 @@
+Hi, I'm trying to make a download button that will download a file from a link. I'm using the following code:
+<input type="text"  [(ngModel)]= 'url' placeholder="Link" (change)= 'helloWorld()' />
+
+
+<select id= 'type' [(ngModel)]="type_down" (change)="helloWorld()">
+    <option *ngFor="let type of types_down" [value]="type">{{type}}</option>
+</select>  
+
+<select id= 'qualite' [(ngModel)]="qualite" (change)="helloWorld()">
+  <option *ngFor="let qualite of qualites" [value]="qualite">{{qualite}}</option> 
+</select>  
+
+<button *ngIf="url.length > 0" (click)="download()">Download</button>

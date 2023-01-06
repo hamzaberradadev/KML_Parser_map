@@ -1,0 +1,8 @@
+<div class="map-container">
+    <div class="map-frame">
+        <input type="file" class="file-upload" (change)="onFileSelected($event)" #fileUpload/>
+        <button class="file-upload-button"  (click)="fileUpload.click()">Upload</button>
+        <div id="map">
+        </div>
+    </div>
+</div>

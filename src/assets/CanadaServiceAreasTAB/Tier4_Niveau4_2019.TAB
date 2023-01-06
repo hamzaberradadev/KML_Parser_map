@@ -1,0 +1,27 @@
+!table
+!version 900
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 14
+    Tier_Niveau Char (15) ;
+    Service_Area_Zone_de_service Char (8) ;
+    Service_Area_Name Char (64) Index 1 ;
+    Nom_de_la_zone_de_service Char (64) ;
+    Population_2016 Decimal (12, 2) ;
+    Dwellings_Logements_2016 Decimal (12, 2) ;
+    Population_2011 Decimal (12, 2) ;
+    Dwellings_Logements_2011 Decimal (12, 2) ;
+    Population_2006 Decimal (12, 2) ;
+    Dwellings_Logements_2006 Decimal (12, 2) ;
+    Population_2001 Decimal (12, 2) ;
+    Dwellings_Logements_2001 Decimal (12, 2) ;
+    Population_1996 Decimal (12, 2) ;
+    Dwellings_Logements_1996 Decimal (12, 2) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "5de8444e-62e3-4de1-b5b6-adcecd5b631d"
+"\MapInfo\ParentTableID" = "ebd573cc-5975-4a5c-972f-8c950864094e"
+end_metadata
